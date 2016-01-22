@@ -15,7 +15,6 @@ int reverse(int n)
 int main()
 {
 	    int n;
-	    printf("enter the number to reverse\n");
-		scanf("%d",&n);
-		printf("reversed num=%d",reverse(n));
-		return 0;
+	    printf("reversed num=%d",reverse(n));
+	    return 0;
+}
